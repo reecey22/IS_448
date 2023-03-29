@@ -1,1 +1,81 @@
 /* css file for all Roofview files */
+	body{
+		color: white;
+		margin-left: 18%;
+		margin-right: 18%;
+		/*background-image: repeating-linear-gradient(yellow, black);*/
+		background-image: url("https://swe.umbc.edu/~sreece1/is448/Group_Project/rev_background.png");
+	}
+	h1{
+		font: Artico;
+		font-size: 60px;
+		text-align: left-center;		
+	}
+	
+	p{
+		margin-bottom: 15px;
+		font-size: 22px;	
+	}
+	div.rev {
+		float:right;
+		font-size: 22px;
+		
+	}
+	.whiteBorder{
+		background-color:white;
+		border-color: white;
+		color: black;
+		padding:10px;
+		padding-top:20px;
+		padding-bottom: 50px;
+		margin-top:0px;
+	}
+	input.sub {
+		float: right;
+		background-color: #FF9800;
+		font-size: 22px;
+		border-style: outset;
+		border-color: #FF9800;
+		
+		
+	}
+	input.can {
+		float: right;
+		background-color: grey;
+		font-size: 22px;
+		border-style: outset;
+		border-color: grey;
+		
+	}
+	.roof {
+		color: #FF9800;
+		background-color: #212121;
+		padding-left: 10px;
+		padding-top: 2px;
+		padding-bottom: 6px;
+		margin-bottom: 0px;
+	}
+	
+	img.h1 {
+	 float: center;
+	 height:80px;
+	 width: 80px;
+
+	}
+	
+	img.p1 {
+		float: right;
+		width:40px;
+		height:40px;
+		padding-top: 25px;
+		
+	}
+	img.p2 {
+		width:20px;
+		height:20px;
+	}
+	img.p3 {
+		float: top;
+		width:40px;
+		height:40px;
+	}	
