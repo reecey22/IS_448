@@ -1,0 +1,120 @@
+/*This stylesheet is being used to complete my CSS lab*/
+/*double quotes are not needed in css*/
+	
+	
+	body{
+		color: black;
+		/*margin-left: 1%;
+		margin-right: 1%;*/
+		margin: 1%;
+		background-image: repeating-linear-gradient(yellow, black);
+		background-image: url("https://swe.umbc.edu/~sreece1/is448/Group_Project/rev_background.png");
+	}
+	.whiteBorder{
+		background-color:white;
+		border-color: white;
+		padding-top:0px;
+		padding-bottom: 50px;
+	}
+	.roof {
+		color: #FF9800;
+		background-color: #212121;
+		padding-left: 0px;
+		padding-top: 6px;
+		padding-bottom: 10px;		
+	}
+	h1{
+		font: Artico;
+		font-size: 60px;
+		text-align: left-center;
+	}
+	h2{
+		font: Artico;
+		font-size: 20px;
+		text-align: left-center;
+		margin-left:5%;	
+		font-weight:840;		
+	}
+	p{
+		margin-bottom: 15px;
+		font-size: 22px;	
+		/*margin-left: 100%;*/
+		color:black;
+	}
+	div.rev {
+		font-size: 15px;
+		color:black;
+		font-weight: bold;
+		font-family: "Segoe UI","Roboto","Oxygen","Ubuntu",
+		"Cantarell","Fira Sans", "Droid Sans","Helvetica Neue",sans-serif;
+		margin-left:5%;
+	}
+	
+	.dropdown_select {
+	
+	background-color: #FF9800;
+		
+	}
+	.select-selected:after {
+		background-color:green;
+	}
+	
+	
+	img.h1 {
+	 float: center;
+	 height:10px;
+	 width: 10px;
+	}
+	
+	img.p1 {
+		float: right;
+		width:40px;
+		height:40px;
+		padding-top: 25px;
+	}
+	img.p2 {
+		width:10px;
+		height:10px;
+	}
+	
+	img.end{
+	width: 50px;
+	height: 50px;	
+	}
+	
+	input.sub {
+		float: right;
+		background-color: #FF9800;
+		font-size: 22px;
+		border-style: outset;
+		border-color: #FF9800;	
+	}
+	input.can {
+		float: right;
+		background-color: grey;
+		font-size: 22px;
+		border-style: outset;
+		border-color: grey;	
+	}
+	input[type = text] {
+		background-color: #FF9800;
+		color: white;
+		maxlength = :"1000";
+	}
+	textarea{
+		background-color: #FF9800;
+		color: white;
+		maxlength :500;
+		resize: none;
+		
+	}
+	.checked {
+	
+	color :orange;
+	}
+	.dol_checked {
+		
+	color: green;
+	}
+	/*style="color: #ff981f*/
+	
