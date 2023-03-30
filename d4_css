@@ -1,27 +1,19 @@
-/*This stylesheet is being used to complete my CSS lab*/
-/*double quotes are not needed in css*/
+/* css document for all Roofview files */
 	body{
 		color: white;
-		margin-left: 28%;
-		margin-right: 28%;
-		/*background-image: repeating-linear-gradient(yellow, black);*/
-		/*background-image: url("https://swe.umbc.edu/~sreece1/is448/Group_Project/rev_background.png");*/
+		margin-left: 18%;
+		margin-right: 18%;
+		background-image: url("https://swe.umbc.edu/~sreece1/is448/Group_Project/rev_background.png");
 	}
 	h1{
 		font: Artico;
 		font-size: 60px;
-		text-align: left-center;
-		background-color:#212121;
-
-	h2{
-		font: Artico;
-		font-size: 60px;
 		text-align: left-center;		
 	}
+	
 	p{
 		margin-bottom: 15px;
 		font-size: 22px;	
-		margin-left: 100%;
 	}
 	div.rev {
 		float:right;
@@ -32,18 +24,34 @@
 		background-color:white;
 		border-color: white;
 		color: black;
-		padding-top:0px;
+		padding:10px;
+		padding-top:20px;
 		padding-bottom: 50px;
-		text-indent:5px;
-		border:15px;
-		margin-left: 18%
+		margin-top:0px;
 	}
+	/* Screen 4 settings */
+	.filter{
+		margin-left: 200px;
+	}
+	.box{
+		width: 150px;
+		text-align: left;
+		font-size: 20px;
+	}
+	.buttons{
+		height: 30px;
+		width: 100px;
+		font-size: 20px;
+	}
+	/* End of Screen 4 settings */
 	input.sub {
 		float: right;
 		background-color: #FF9800;
 		font-size: 22px;
 		border-style: outset;
-		border-color: #FF9800;	
+		border-color: #FF9800;
+		
+		
 	}
 	input.can {
 		float: right;
@@ -56,10 +64,10 @@
 	.roof {
 		color: #FF9800;
 		background-color: #212121;
-		padding-left: 0px;
-		padding-top: 0px;
+		padding-left: 10px;
+		padding-top: 2px;
 		padding-bottom: 6px;
-		text-indent:5px;		
+		margin-bottom: 0px;
 	}
 	
 	img.h1 {
@@ -67,12 +75,12 @@
 	 height:80px;
 	 width: 80px;
 	}
-	
 	img.p1 {
 		float: right;
 		width:40px;
 		height:40px;
 		padding-top: 25px;
+		
 	}
 	img.p2 {
 		width:20px;
@@ -82,6 +90,4 @@
 		float: top;
 		width:40px;
 		height:40px;
-	}	
-	
-	
+	}
