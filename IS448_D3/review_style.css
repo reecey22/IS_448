@@ -1,0 +1,105 @@
+.material-icons{font-size:60pt;
+				color:green;
+				text-align:center;}
+				
+h1{text-align: center;
+		margin-bottom:0pt;}
+
+.rate{font-size:80pt;
+		text-align:center;
+		margin:0;
+		padding-top:0pt;
+		color: black;}
+		
+		
+.rate1{border-style: solid;
+			border-color: white;
+			padding-top:3pt;
+			padding-bottom:3pt;
+			padding-right:350pt;
+			background-color: green;
+			position: relative;
+			left:90pt;
+			width: 60%;
+			height:18pt;
+			}	
+			
+.rate2{border-style: solid;
+			border-color:white;
+			padding-top:3pt;
+			padding-bottom:3pt;
+			padding-right:350pt;			
+			background-color: lime;
+			position: relative;
+			left: 118pt;}	
+			
+.rate3{border-style: solid;
+			border-color:white;
+			padding-top:3pt;
+			padding-bottom:3pt;
+			padding-right:350pt;
+			background-color: yellow;
+			position: relative;
+			left: 100pt;}	
+			
+.rate4{border-style: solid;
+			border-color:white;
+			padding-top:3pt;
+			padding-bottom:3pt;
+			padding-right:350pt;
+			background-color: orange;
+			position: relative;
+			left: 50pt;}	
+			
+.rate5{border-style: solid;
+			border-color:white;
+			padding-top:3pt;
+			padding-bottom:3pt;
+			padding-right:350pt;
+			background-color: red;
+			position: relative;
+			left: 130pt;}	
+		
+		
+		
+.p3{color: grey;
+		font-family: "Georgia", "Garamond", "Verdana";
+		text-align: left;
+		border-style: solid;
+		border-color: white;
+		padding-bottom: 70pt;
+		color: black;}
+				
+		
+
+.p5{color: grey;
+		font-family: "Georgia", "Garamond", "Verdana";
+		text-align: left;
+		border-style: solid;
+		border-color: white;
+		padding-bottom: 70pt;
+		color: black;}
+
+
+
+.div1{font-size: 20pt;
+		font-family: "Georgia", "Garamond", "Verdana";}
+		
+
+.checked {color:yellow;
+		}
+		
+.fa{font-size: 50pt;}
+
+.desc{font-family: "Georgia", "Garamond", "Verdana";
+		font-size: 15pt;
+		color: black;}
+		
+
+.review-number{color: black;}
+
+.p1{color: black;}		
+		
+.p2{color: black;}
+
+.p4{color: black;}

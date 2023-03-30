@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+
+<head>
+	<title> New Review Page</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<link rel = "stylesheet" type = "text/css" href = "d4_css.css"/> 
+	<!-- link to stylesheet, recipes.css -->
+	<link rel="stylesheet" type ="text/css" href="new_review.css" title="Style"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+</head> 
+
+<body>
+	
+<div class = "roof">
+	<h1> Roofview </h1> 
+	<!--Insert map icon-->
+	<img src = "map.png" alt = "Map"/>
+	
+	</div>
+	<div class = "whiteBorder">
+	<div class ="review;"> 
+		Write a Review
+	</div>
+	
+	
+	<div class = "restname">
+	
+		<img src="logo01.png" alt="Restaurant Logo" width="200" height="200"><br/>
+		Catonsville Gourmet
+	</div>
+	
+	<div class = "description">
+		Created to provide our guests with a unique dining experience in a 
+		casual coastal like atmosphere, Catonsville Gourmet combines quality fresh seafood and 
+		local ingredients along with our friendly staff.
+	</div>
+	<br/><br/><br/>
+	
+	
+
+	<div class = "name">
+	Name <input type = "text" name = "First Name" size = "20"/> 
+			<br/>
+	</div>
+	<br/>
+	<div>
+	<span class = "rating">Rating</span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star "></span>
+	</div>
+	<br/>
+	</div>
+	<div class = "Add_photo">
+	Add Photo or Video
+		<div class = "upload">
+			<i class="glyphicon glyphicon-upload"></i>
+			<label for="img">Select upload:</label>
+			<input type="file" id="img" name="img" accept="image/*">
+		</div>
+	<br/>
+	</div>
+	
+	<div class = "Add_review">
+	Write your Review<br/>
+		
+			<textarea class="form-control" id="review" rows="3">
+			
+			</textarea>
+		
+	<br/>
+	</div>
+	
+	
+	<p class = "submit">
+	
+	<input type = "submit" value = "submit Review"/>
+	</p>
+	
+	
+</body>
+</html>
