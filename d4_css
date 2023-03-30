@@ -38,10 +38,14 @@
 		text-align: left;
 		font-size: 20px;
 	}
-	.buttons{
+	.buttonSize{
 		height: 30px;
 		width: 100px;
 		font-size: 20px;
+	}
+	.buttonPos{
+		margin-left: 350px;
+		margin-top: 45px;
 	}
 	/* End of Screen 4 settings */
 	input.sub {
