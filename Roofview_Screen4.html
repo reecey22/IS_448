@@ -3,15 +3,40 @@
 <head> <meta http-equiv = "Content-Type" content = "text/html; charset = utf-8">
 	<title> Roofview </title>
 	<!-- Link to Stylesheet -->
-
+	<link rel="stylesheet" type="text/css" href="d4.css"/>
+	<!--Font Awesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
-<h1> Filter Location </h1>
-
+<div class="roof">
+<h1> Roofview <img src="map-icon.png" alt="Map" class="h1"</h1>
+<!--Insert icon-->
+<i class="fa fa-user" style="color:white; float:right; margin-top: 30px;"></i>
+</div>
+<!--Initiate form-->
+<form action="" method="get">
+<br />
+<div class="whiteBorder">
+<h2>Locations in Maryland:
+<select name="location_selection" size="1" class="box">
+	<option value="none" selected disabled hidden>Select</option>
+	<option value="ec">Ellicott City</option>
+	<option value="ih">Inner Harbor</option>
+	<option value="arb">Arbutus</option>
+	<option value="anps">Annapolis</option>
+	<option value="caton">Catonsville</option>
+</select>
+<span class="filter">Filter by: </span>	
+<select name="filter_selection" size="1" class="box">
+	<option value="none" selected disabled hidden>Select</option>
+	<option value="cost">Cost</option>
+	<option value="rating">Rating</option>
+	<option value="distance">Distance</option>
+</select>
+</h2>
+<input type="submit" value="Submit" class="buttons">
+<input type="reset" value="Reset" class="buttons">
+</form>
 </body>
-
-
-
 </html>
