@@ -5,7 +5,7 @@
 		color: black;
 		text-align: justify;
 		margin-left:1%;
-		background-image: url("https://swe.umbc.edu/~sreece1/is448/Group_Project/gld_background.png");
+		background-image: url("https://swe.umbc.edu/~sreece1/is448/Group_Project/Deliverable5/gld_background.png");
 	}*/
 	
 	.error {
@@ -15,7 +15,7 @@
 	}
 	
 	.texBgr {
-	background:url("https://swe.umbc.edu/~sreece1/is448/Group_Project/blk-background.png");	
+	background:url("https://swe.umbc.edu/~sreece1/is448/Group_Project/Deliverable5/blk-background.png");	
 	padding-top:6px;
 	padding-bottom: 60px;
 	}
@@ -51,7 +51,7 @@
 		margin-left:0%;
 	}
 	
-	.roof {
+	.roof{
 		color: #FF9800;
 		background-color: #212121;
 		padding-left: 40px;
@@ -59,8 +59,7 @@
 		padding-bottom: 30px;	
 		margin-left: 0%;
 		margin-right: 0%;
-		background:url("https://swe.umbc.edu/~sreece1/is448/Group_Project/blk-background.png");	
-		
+		background:url("https://swe.umbc.edu/~sreece1/is448/Group_Project/Deliverable5/blk-background.png");	
 	}
 	.roof_text{
 		font: Roboto;
@@ -117,7 +116,7 @@
 	.landing_page_body {
 		color: black;
 		margin: 1%;
-		background-image: url("https://swe.umbc.edu/~sreece1/is448/Group_Project/gld_background.png");
+		background-image: url("https://swe.umbc.edu/~sreece1/is448/Group_Project/Deliverable5/gld_background.png");
 	}	
 				
 	/*SCREEN 1 SETTINGS END*/
@@ -203,7 +202,7 @@
 		margin-right: 1%;*/
 		margin: 1%;
 		/*background-image: repeating-linear-gradient(yellow, black);*/
-	background-image: url("https://swe.umbc.edu/~sreece1/is448/Group_Project/gld_background.png");
+	background-image: url("https://swe.umbc.edu/~sreece1/is448/Group_Project/Deliverable5/gld_background.png");
 	}
 	
 	
@@ -212,13 +211,311 @@
 	/*SCREEN 3: SETTINGS*/
 	.add_loc_feedback {
 	
-	list-style-image:url("https://swe.umbc.edu/~sreece1/is448/Group_Project/bus-icon.png");
+	list-style-image:url("https://swe.umbc.edu/~sreece1/is448/Group_Project/Deliverable5/bus-icon.png");
 	color:blue;
 		
 	}
 	
 	/*SCREEN 3: SETTINGS END*/
 	
+	/*SCREEN 4: SETTINGS*/
+	/*button for going back to Roofview filter*/
+	.button4{
+		display: block;
+		font-size: 30px;
+		color: #FF9800;
+		background-color: black;
+		border: none;
+		margin-top: 100px;
+		margin-left: 450px;
+		margin-bottom: -70px;
+	}
+	/*Position of "Filter by" text*/
+	.filter_html{ /*Position of "Filter by" text in html file*/
+		margin-left: 100px;
+	}
+	.filter_php{ /*Position of "Filter by" text in php file*/
+		margin-left: 900px;
+		margin-top: -37px;
+	}
+	.location_box{
+		width: 160px;
+		text-align: left;
+		font-size: 20px;
+		background-color: #FF9800;	
+		color: white;
+	}
+	.filter_box{
+		width: 180px;
+		text-align: left;
+		font-size: 20px;
+		background-color: #FF9800;	
+		color: white;
+	}
+	.no_info{
+		font-size: 50px;
+		font-weight: bold;
+		text-align: center;
+		background-color: yellow;
+		border: solid;
+		margin-right: 160px;
+		margin-left: 150px;
+	}
+	.column {
+		float: right;
+		padding: 5px;
+	}
+	.selected{ /*Normal font*/
+		font-weight: normal;
+	}
+	/*Info of photos*/
+	.below_oec{
+		font-weight: bold;
+		font-size: 30px;
+		margin-top: 450px;
+		margin-left: 25px;
+		margin-right: 800px;
+	}
+	.below_trolly_stop{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 700px;
+		margin-top: -200px;
+	}
+	.below_railroad{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 25px;
+		margin-top: 480px;
+	}
+	.below_crazy{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 700px;
+		margin-top: -200px;
+	}
+	.below_fort{
+		font-weight: bold;
+		font-size: 30px;
+		margin-top: 450px;
+		margin-left: 25px;
+	}
+	.below_bs{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 700px;
+		margin-top: -200px;
+	}
+	.below_na{
+		font-weight: bold;
+		font-size: 30px;
+		margin-top: 470px;
+		margin-left: 25px;
+	}
+	.below_sci{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 700px;
+		margin-top: -200px;
+	}
+	.below_sor{
+		font-weight: bold;
+		font-size: 30px;
+		margin-top: 450px;
+		margin-left: 25px;
+	}
+	.below_oca{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 700px;
+		margin-top: -200px;
+	}
+	.below_wonder{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 28px;
+		margin-top: 470px;
+	}
+	.below_holly{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 700px;
+		margin-top: -200px;
+	}
+	.below_shirly{
+		font-weight: bold;
+		font-size: 30px;
+		margin-top: 470px;
+		margin-left: 25px;
+	}
+	.below_sandy{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 700px;
+		margin-top: -200px;
+	}
+	.below_hist_anps{
+		font-weight: bold;
+		font-size: 30px;
+		margin-top: 470px;
+		margin-left: 25px;
+	}
+	.below_chick{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 700px;
+		margin-top: -200px;
+	}
+	.below_trolly_trail{
+		font-weight: bold;
+		font-size: 30px;
+		margin-top: 450px;
+		margin-left: 25px;
+	}
+	.below_pottery{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 700px;
+		margin-top: -200px;
+	}
+	.below_banneker{
+		font-weight: bold;
+		font-size: 30px;
+		margin-top: 480px;
+		margin-left: 25px;
+	}
+	.below_lurman{
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 700px;
+		margin-top: -200px;
+	}
+	/*Photos of locations*/
+	.oec{ /*Old Ellicott City*/
+		height: 420px;
+		width: 565px;
+	}
+	.trolly_stop{
+		margin-top: -630px;
+		margin-left: 700px;
+		height: 422px;
+		width: 565px;
+	}
+	.railroad{
+		margin-top: 20px;
+		height: 422px;
+		width: 565px;
+	}
+	.crazyMason{
+		margin-top: -630px;
+		margin-left: 700px;
+		border: solid;
+		width: 565px;
+		height: 420px;
+	}
+	.fort_mchenry{
+		height: 420px;
+		width: 565px;
+	}
+	.baltimore_ships{
+		margin-top: -630px;
+		margin-left: 700px;
+		height: 420px;
+		width: 565px;
+	}
+	.national_aqu{ /*National Aquarium*/
+		margin-top: 30px;
+		height: 400px;
+		width: 565px;
+	}
+	.science{ /*Maryland Science Center*/
+		width: 575px;
+		height: 400px;
+		margin-top: -612px;
+		margin-left: 700px;
+	}
+	.sorrento{
+		height: 400px;
+		width: 565px;
+		margin-bottom: 20px;
+	}
+	.oca_mocha{
+		margin-top: -630px;
+		margin-left: 700px;
+		margin-bottom: 20px;
+		height: 400px;
+		width: 565px;
+		border: solid;
+	}
+	.wonderfly{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 400px;
+		width: 565px;
+	}
+	.hollywood{
+		margin-top: -625px;
+		margin-left: 700px;
+		margin-bottom: 20px;
+		height: 400px;
+		width: 565px;
+		border: solid;
+	}
+	.shirleys{
+		height: 400px;
+		width: 565px;
+		margin-bottom: 20px;
+		border: solid;
+	}
+	.sandy_point{
+		margin-top: -650px;
+		margin-left: 700px;
+		margin-bottom: 20px;
+		height: 400px;
+		width: 565px;
+		border: solid;
+	}
+	.hist_anps{
+		margin-top: 20px;
+		height: 400px;
+		width: 565px;
+		border: solid;
+	}
+	.chick_ruths{
+		margin-left: 700px;
+		margin-top: -622px;
+		height: 400px;
+		width: 565px;
+		border: solid;
+	}
+	.trolly_trail{
+		height: 400px;
+		width: 565px;
+		margin-bottom: 20px;
+	}
+	.pottery_cove{
+		margin-left: 700px;
+		margin-bottom: 20px;
+		margin-top: -631px;
+		height: 400px;
+		width: 565px;
+	}
+	.banneker_park{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 400px;
+		width: 565px;
+		border: solid;
+	}
+	.lurman_theatre{
+		margin-top: -632px;
+		margin-left: 700px;
+		margin-bottom: 20px;
+		height: 400px;
+		width: 565px;
+		border: solid;
+	}
+	/*SCREEN 4 SETTINGS END*/
 	/*SCREEN 5 SETTINGS END*/
 	.material-icons{font-size:60pt;
 				color:green;
@@ -445,33 +742,6 @@
 		margin-left: 350px;
 		margin-top: 45px;
 	}
-	
-	/* Screen 4 settings */
-	.filter{
-		margin-left: 200px;
-	}
-	.filter_php{
-		margin-left: 600px;
-	}
-	.box{
-		width: 150px;
-		text-align: left;
-		font-size: 20px;
-		background-color: #FF9800;	
-		color: white;
-	}
-	.selected{
-		width: 150px;
-		text-align: left;
-		font-size: 30px;
-		background-color: #FF9800;	
-		color: white;
-	}
-	.column {
-	float: right;
-	padding: 5px;
-	}
-
 	/* Clearfix(clear floats)*/
 	.row::after {
 	content: "";
