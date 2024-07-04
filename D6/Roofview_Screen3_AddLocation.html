@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head> 
+	<meta http-equiv ="content-type" content ="text/html; charset=utf-8">
+	<title> Roofview </title>
+	
+	<!-- Link to Stylesheests & icon library -->
+	
+	<link rel = "stylesheet" type = "text/css" href = "d4_css.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/0.min.css">
+	<script src="https://kit.fontawesome.com/ec21e44b1f.js" crossorigin ="anonymous"></script>
+	
+	<script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+	<script type = "text/javascript" src = "Roofview_Screen3_AddLocation_Javascript.js" defer> </script>
+	<!-- STAR RATING LINKS -->
+	
+	
+</head>
+
+<body>
+<!--Initiate Form-->
+<form action = "Roofview_Screen3_AddLocation_PHP.php" method = "post" name = "newLocationForm" onsubmit = "return validateForm()">
+
+<div class = "roof">
+
+	<h1 class = "roof_text"> Roofview <img src = "map-icon.png" alt = "Map" class = "img.h1">  </h1>
+
+	<div> 
+	<input type = "button" value = "Contact" class="options">
+	<input type = "button" value = "About" class = "options">
+	<input type = "button" value = "Home" class = "options" onclick = "window.location.href='https://172.0.0.1/Roofview_Screen1_LandingPage.html';">
+	
+	
+	</div>
+</div> 
+
+<div class = "whiteBorder">
+<h2 class = "loc_txt"> Add a new location to Roofview</h2>
+<h2> Welcome! Please fill out the sections below to complete your review!
+
+<!--Insert icons-->
+<span class = "icons">
+<i class="fa-solid fa-2xl fa-floppy-disk"></i>
+
+
+
+<i class="fa-solid fa-2xl fa-user" ></i>
+</span></h2>
+<div class = "rev">
+<span class = "error"> * required fields </span><br><br>
+
+<label for= "area"> Area 
+		<select name = "area" id = "area" class="box"> 
+		<option value = "Arbutus"> Arbutus </option>
+		<option value = "Annapolis"> Annapolis </option>
+		<option value = "Catsonville"> Catsonville </option>
+		<option value = "Halethrope"> Halethrope</option>
+		<option value = "Elkridge"> Elkridge </option>
+		<option value = "Ellicot City"> Ellicot City </option>
+		<option value = "Other"> Other? </option>
+		</select> </label>	<span class = "error"> * </span>
+
+<label>
+<br><br>
+<table>
+	<tr> 
+		<td>Enter area here if not listed above! </td>
+		<td><input type = "text" id = "other_area" name= "other_area" 
+			onblur = "validateArea(this.value)"/> 
+			<span id="areaBox"></span></td>
+	</tr>
+</table>
+
+<br><br>
+</label> 
+
+<label>
+Location name <input type = "text" id = "loc_name" name = "loc_name"> 
+	<span class = "error"> * </span>
+<br><br>
+</label> 
+
+<label>
+Add a headline! <input type = "text" id = "headline" name = "headline"> 
+	<span class = "error"> * </span>
+<br><br>
+</label> 
+
+<label for="file">Upload a photo! </label>
+    <input type="file" id="file" name="file" multiple>
+	<br><br>
+<label>
+
+Description <span class = "error"> * </span> <br><br>
+<textarea id = "description" name = "description" rows="6" cols="100"> </textarea>
+<br><br>
+</label>
+
+<label>
+
+How was your experience at this location?
+<br>
+<div class = "rating-box">
+	<div class = "stars">
+	<i class = "fa fa-star"> </i>
+	<i class = "fa fa-star"> </i>
+	<i class = "fa fa-star"> </i>
+	<i class = "fa fa-star"> </i>
+	<i class = "fa fa-star"> </i>
+	</div>
+</div>
+<br><br></label>
+<!--
+<select class = "star-rating">
+	<option value =""> Select a rating </option>
+	<option value ="5"> Excellent </option>
+	<option value ="4"> Very Good </option>
+	<option value ="3"> Average </option>
+	<option value ="2"> Poor </option>
+	<option value ="1"> Terrible </option>
+</select> 
+-->
+<div class = "icon">
+<i> </i>
+</div>
+
+<label>
+Cost 
+<span class="fa fa-solid fa-dollar-sign dol_checked"></span>
+<span class="fa fa-solid fa-dollar-sign dol_checked"></span>
+<span class="fa fa-solid fa-dollar-sign"></span>
+
+<br><br></label>
+
+<label>
+Best for? Select tags that apply or insert your own.
+<br><br></label>
+
+UMBC Transit Accessible? <span class = "error"> * </span>
+<label>
+<input type = "radio" id = "transit_accessible" name = "transit_accessible" value = "Yes"> Yes
+</label>
+
+<label>
+<input type = "radio" name = "transit_accessible" value = "No" checked = "checked"> No
+<br><br></label>
+
+Student Discounts Available? <span class = "error"> * </span>
+
+<label>
+<input type = "radio" name = "discounts_available" value = "Yes" checked = "checked"> Yes
+</label>
+
+<label>
+<input type = "radio" name = "discounts_available" value = "No" checked = "checked"> No
+</label><br><br>
+
+<!--Insert buttons-->
+	<div class = "res">
+	<div class = "row">
+	<div class = "column">
+	
+	<input type = "reset" value = "Reset" class = "can"> 
+	
+	</div>
+	</div>
+	</div>
+
+
+	<div class = "res">
+	<div class = "row">
+	<div class = "column">
+	
+	<input type = "submit" value = "Submit Review!" class = "sub"> 
+	 
+	</div>
+	</div>
+	</div>
+
+	
+<div class = "foot">
+<br><br><br>
+Click the bus to view UMBC Transit routes! 
+	<a href = "https://transit.umbc.edu/schedules/">
+		<i class="fa-solid fa-2xl fa-bus" style="color: #FF9800;"></i>
+	</a>
+	</a>
+</div>
+
+
+</div></div>
+</form>
+</body>
+
+
