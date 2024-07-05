@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+<head> <meta http-equiv = "Content-Type" content = "text/html; charset = utf-8">
+	<title> Roofview </title>
+	<!-- Link to Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="d4_css.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- JavaScripts -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
+	<script type="text/javascript" src="Roofview_Screen4_FilterLocation.js"></script>
+</head>	
+
+<body>
+<div class="roof">
+<h1 class = "roof_text"> Roofview <img src="https://127.0.0.1/map.png"
+alt="Map" class="img.h1"></h1>
+<!--Insert icon-->
+<i class="fa fa-user" style="color:white; float:right; margin-top: 5px;"></i>
+<div>
+<input name = "landing_page" id = "landing_page"
+onclick = "location.href='https://127.0.0.1/Roofview_Screen1_LandingPage.html'"
+type = "button" value = "Back to Main Page" class = "goBack1"/>	
+</div>
+<!--Initiate form-->
+</div>
+<form action="Roofview_Screen4_FilterLocation.php" method="post" onsubmit="return pickLocation(location_selection)">
+<br />
+<div class="whiteBorder">
+<h1 class="bold">Locations in Maryland:
+<select name="location_selection" size="1" class="location_box">
+	<option value="none" selected disabled hidden>Select</option>
+	<option value="ec">Ellicott City</option>
+	<option value="ih">Inner Harbor</option>
+	<option value="arb">Arbutus</option>
+	<option value="anps">Annapolis</option>
+	<option value="caton">Catonsville</option>
+</select>
+<span class="sort_html">Sort by: </span>	
+<select name="sort_selection" size="1" class="sort_box">
+	<option value="none" selected disabled hidden>Select</option>
+	<option value="cost">Cost</option>
+	<option value="ratings">Ratings</option>
+	<option value="transit_access">Transit Access</option>
+	<option value="student_discount">Student Discount</option>
+</select>
+</h1>
+<div class="button4Pos">
+<br />
+<input type="submit" value="Submit" id="submit" class="button4Size">
+<input type="reset" value="Reset" class="button4Size">
+</div>
+</form>
+</body>
+</html>
